@@ -25,8 +25,8 @@ export const SchemaInput = YUP.object().shape({
 });
 
 
-//   .matches(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/, "Password must contain at least one letter and one number")
-//   .matches(/^(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,}$/, "Password must contain at least one special character")
+  // .matches(/^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/, "Password must contain at least one letter and one number")
+
     
 
 

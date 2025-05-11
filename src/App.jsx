@@ -32,21 +32,16 @@ function App() {
             {(msg) => <p className="a">{msg}</p>}
           </ErrorMessage>
 
-          <Field name="password" placeholder="Password" type="password" />
-          <ErrorMessage name="password">
-            {(msg) => <p className="a">{msg}</p>}
-          </ErrorMessage>
-
-          <Field name="confirmPassword" placeholder="Confirm Password" type="password" />
-          <ErrorMessage name="confirmPassword">
-            {(msg) => <p className="a">{msg}</p>}
-          </ErrorMessage>
+      
 
           <button type="submit">Submit</button>
         </Form>
       </Formik>
+
+      <button type='sub'>Create new account</button>
     </div>
   );
 }
 
 export default App;
+
